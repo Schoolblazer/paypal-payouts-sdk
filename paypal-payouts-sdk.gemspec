@@ -4,7 +4,7 @@ require 'core/version'
 
 Gem::Specification.new do |spec|
   spec.name        = 'paypal-payouts-sdk'
-  spec.version     = "2.0.1"
+  spec.version     = "2.0.2"
   spec.summary     = "Deprecated."
   spec.description = "[Deprecated] This repository contains PayPal's Ruby SDK for Payouts REST API"
   spec.authors     = ["http://developer.paypal.com"]
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'paypalhttp', '~> 1.0.1'
+  spec.add_dependency 'paypalhttp', '~> 2.0.1'
 
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
